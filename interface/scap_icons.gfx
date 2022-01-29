@@ -1,0 +1,21 @@
+
+
+#######################
+### ASCENSION PATHS ###
+#######################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ap_scap_master_of_construction"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_scap_master_of_construction.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ap_scap_giant_galaxy_construction_project"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_scap_giant_galaxy_construction_project.dds"
+		alwaystransparent = yes
+	}
+}

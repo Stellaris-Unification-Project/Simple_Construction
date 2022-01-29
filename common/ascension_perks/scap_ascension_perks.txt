@@ -1,0 +1,76 @@
+ap_scap_master_of_construction = {
+
+    potential = {
+        NOT = { has_ascension_perk = ap_scap_master_of_construction }
+    }
+    
+    possible = {
+        custom_tooltip = {
+			fail_text = "ap_scap_master_of_construction_req_1"
+			has_ascension_perk = ap_master_builders
+		}
+        custom_tooltip = {
+			fail_text = "ap_scap_master_of_construction_req_2"
+			OR = {
+                has_ascension_perk = ap_galactic_wonders_utopia 
+                has_ascension_perk = ap_galactic_wonders_megacorp
+                has_ascension_perk = ap_galactic_wonders_utopia_and_megacorp
+            }
+		}
+        custom_tooltip = {
+            fail_text = ap_scap_master_of_construction_req_3
+            has_tradition = tr_prosperity_finish
+        }
+        custom_tooltip = {
+            fail_text = ap_scap_master_of_construction_req_4
+            has_tradition = tr_discovery_finish
+        }
+        
+	}
+    
+    modifier = {
+        planet_building_build_speed_mult = 0.25
+        planet_max_buildings_add = 1
+        starbase_upgrade_speed_mult = 0.25
+        starbase_building_build_speed_mult = 0.25
+        megastructure_build_speed_mult = 0.25
+		country_megastructure_build_cap_add = 1
+	}
+    
+    ai_weight = {
+		factor = 1
+	}
+}
+
+ap_scap_giant_galaxy_construction_project = {
+
+    potential = {
+		NOT = { has_ascension_perk = ap_scap_giant_galaxy_construction_project }
+	}
+    
+    possible = {
+		custom_tooltip = {
+			fail_text = "ap_scap_giant_galaxy_construction_project_req_1"
+			has_ascension_perk = ap_scap_master_of_construction
+		}
+        custom_tooltip = {
+            fail_text = ap_scap_giant_galaxy_construction_project_req_2
+            has_tradition = tr_expansion_finish
+        }
+        custom_tooltip = {
+            fail_text = ap_scap_giant_galaxy_construction_project_req_3
+            has_tradition = tr_domination_finish
+        }
+	}
+    
+    modifier = {
+        planet_building_build_speed_mult = 0.50
+        starbase_upgrade_speed_mult = 0.25
+        starbase_building_build_speed_mult = 0.25
+        megastructure_build_speed_mult = 0.50
+	}
+    
+    ai_weight = {
+		factor = 1
+	}
+}

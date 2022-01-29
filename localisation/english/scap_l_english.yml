@@ -1,0 +1,30 @@
+﻿l_english:
+####################################
+# Ascension Perks
+####################################
+ ap_scap_master_of_construction:0 "Master of Construction"
+ ap_scap_master_of_construction_desc:0 "We are reached The Master of Construction. We have accumulated The experience, technology and data. This will greatly increase the construction efficiency."
+ ap_scap_master_of_construction_req_1:0 "$TRIGGER_FAIL$Requires the §Y$ap_master_builders$§! Ascension."
+ ap_scap_master_of_construction_req_2:0 "$TRIGGER_FAIL$Requires the §Y$ap_galactic_wonders_utopia$§! Ascension."
+ ap_scap_master_of_construction_req_3:0 "$TRIGGER_FAIL$Requires the §Y$tr_prosperity_finish$§!."
+ ap_scap_master_of_construction_req_4:0 "$TRIGGER_FAIL$Requires the §Y$tr_discovery_finish$§!."
+ 
+ ap_scap_giant_galaxy_construction_project:0 "Giant Galaxy Construction Project"
+ ap_scap_giant_galaxy_construction_project_desc:0 "Finally, We have the technology and resources to construct future. Our construction speeds become much faster.\nAlso Unlocks The §Y$policy_scap_giant_galaxy_construction_project_doctrin$ Policies§! which Increase overall construction speed But also Build cost and Upkeep."
+ ap_scap_giant_galaxy_construction_project_req_1:0 "$TRIGGER_FAIL$Requires the §Y$ap_scap_giant_galaxy_construction_project$§! Ascension."
+ ap_scap_giant_galaxy_construction_project_req_2:0 "$TRIGGER_FAIL$Requires the §Y$tr_expansion_finish$§!."
+ ap_scap_giant_galaxy_construction_project_req_3:0 "$TRIGGER_FAIL$Requires the §Y$tr_domination_finish$§!."
+
+####################################
+# Policies
+####################################
+
+ policy_scap_giant_galaxy_construction_project_doctrin:0 "Giant Galaxy Construction Project"
+ policy_scap_giant_galaxy_construction_project_doctrin_desc:0 "We can activate GGC Project for aggressive constructing."
+ 
+ scap_giant_galaxy_construction_project_doctrin_normal:0 "Project Not Activate"
+ scap_giant_galaxy_construction_project_doctrin_normal_desc:0 "The GGC Project is in normal. There are no Effects and Upkeeps."
+ 
+ scap_giant_galaxy_construction_project_doctrin_acceleration:0 "Activate GGC Project"
+ scap_giant_galaxy_construction_project_doctrin_acceleration_desc:0 "We activate the GGC Project. It makes builders will construct buildings as fast as they can. But no matter how much resources they need.\n §RWarning!§!  This Policies will §YIncrease your overall £influence£ £energy£ empire's upkeeps, And £minerals£ £alloys£ construction costs.§!"
+ 
